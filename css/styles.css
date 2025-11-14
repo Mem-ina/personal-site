@@ -122,6 +122,10 @@ header nav ul li a:hover {
 	color: white;
 	text-decoration: underline;
 }
+.container .blue a:hover{
+color: orange;
+	text-decoration: none;
+}
 
 /* Galaxy Background*/
 .galaxy-bg {
