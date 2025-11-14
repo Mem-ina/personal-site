@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    
+    <!-- Font Awesome CDN - MOVED TO HEAD -->
+   <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+    
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" 
+          rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- REMOVED Font Awesome link from here -->
+
+    <!-- Header -->
+    <!-- Icon-based Header for Smartphones and Tablets -->
+    <header class="icon-header">
+      <nav>
+        <ul>
+          <li>
+            <a href="#hero"><i class="fas fa-home"></i></a>
+          </li>
+          <li>
+            <a href="#about"><i class="fas fa-user"></i></a>
+          </li>
+          <li>
+            <a href="#work"><i class="fas fa-briefcase"></i></a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-envelope"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Text-based Header for Laptops and Desktops -->
+    <header class="text-header">
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Memina Sangara</span></h1>
+        <p>
+          Graphic Designer, Ui/Ux Designer &
+          <span class="highlight">Front End Developer</span>
+        </p>
+        <a href="#work" class="btn">Explore My Work</a>
+        <!-- <a href="#about" class="btn">View my CV</a> -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="galaxy-bg"></div>
+      <!-- Galaxy background -->
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Meet Memina, a dynamic force of nature with a passion for rolling up
+          her sleeves and diving into any task at hand. Born with a curiosity
+          and an innate drive for excellence, she has always been the go-to
+          person for getting things done.
+        </p>
+        <h3>
+          <a href="cv.html"> <span class="blue">View My CV</span></a>
+        </h3>
+        <!-- <h3>
+				<a href="./Dim.html" class="blue">Dim Form</a>
+			</h3> -->
+      </div>
+
+      <!-- Proficient Section -->
+      <div id="proficient">
+        <div class="container">
+          <h2>Proficient In</h2>
+          <ul>
+            <!-- <li>Google Workplace</li> -->
+            <!-- <li>Microsoft Suite</li> -->
+            <li>Figma</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React js</li>
+            <li>Tailwind</li>
+            <!-- <li>Adobe Creative Suite</li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <div class="project">
+            <img src="images/Urban-pulse.png" alt="Project 1" />
+            <h3>Urban Pulse</h3>
+            <p>
+              A modern and dynamic logo, featuring bold, vibrant typography
+              combined with abstract to reflect the fast-paced energy of urban
+              life.
+            </p>
+          </div>
+          <div class="project">
+            <img src="images/Urban-pulse-flyer.jpg" alt="Project 2" />
+            <h3>Urban Pulse</h3>
+            <p>
+              A high-energy, visually striking flyer, designed to capture the
+              pulse of the city with edgy fonts, urban imagery, and bright,
+              contrasting colors.
+            </p>
+          </div>
+
+          <div class="project">
+            <img src="images/Your-Trimmings.png" alt="Project 3" />
+            <h3>Your Trimmings by Da</h3>
+            <p>
+              The monochrome design exudes professionalism and luxury, perfect
+              for a high-end grooming service.
+            </p>
+          </div>
+
+          <div class="project">
+            <img src="images/Just-gym-flyer.jpg" alt="Project 3" />
+            <h3>JustGYM</h3>
+            <p>
+              A high-impact fitness flyer using strong, motivational language
+              and bold fonts to inspire action.
+            </p>
+          </div>
+          <!-- <div class="project">
+            <a href="https://alphaomegasolutionstravail.ca/portfolio/index.html"
+              >Web Portfolio</a
+            >
+          </div> -->
+          <div class="project">
+            <a href="https://poetic-puppy-dccc9e.netlify.app/">Belle Store</a>
+          </div>
+          <div class="project">
+            <a
+              href="https://Mem-ina.github.io/movieView"
+              >MovieView</a
+            >
+          </div>
+          <div class="project">
+            <a href="https://mem-ina.github.io/ReSpinn/">ReSpinn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> sangaramemina@gmail.com</p>
+          <p><i class="fas fa-phone-alt"></i> +27 78 534 1942</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Johannesburg, Gauteng 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Memina Sangara. All rights reserved.</p>
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
